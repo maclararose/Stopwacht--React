@@ -1,0 +1,40 @@
+.container{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.img{
+    width: 300px;
+    height: 350px;
+    padding-top: 100px;
+}
+
+.timer{
+    font-size: 50px;
+    margin-top: -190px;
+}
+.areaBtn{
+    margin-top: 170px;
+    display: flex;
+}
+
+.btnStyle{
+    width: 150px;
+    background-color: #FFF;
+    font-size: 20px;
+    text-align: center;
+    border-radius: 10px;
+    margin-left: 15px;
+    margin-right: 15px;
+    cursor: pointer;
+    padding: 5px;
+}
+
+.btnStyle:hover{
+    opacity: 0.7;
+    color:#000;
+    transition: all 0.40s;
+}
